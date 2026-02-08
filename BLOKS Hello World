@@ -1,0 +1,24 @@
+BLOK main
+  say "Hello world"
+END
+
+Explanation:
+
+BLOK main … END defines the top-level block that runs first.
+
+say "Hello world" prints the text to the console.
+
+When run through your BLOKS interpreter in Python, it will output:
+
+Hello world
+
+You can also add a line break or multiple messages by adding more say commands:
+
+BLOK main
+  say "Hello world"
+  say "Welcome to BLOKS!"
+END
+When run through your BLOKS interpreter in Python, it will output:
+
+Hello world
+Welcome to BLOKS!
